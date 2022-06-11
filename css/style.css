@@ -1,0 +1,50 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    .hero-image img {
+        width: 100%;
+        height: 80vh;
+        object-fit: cover;
+        object-position: top;
+    }
+    
+    .owncolor {
+        color: rgba(56, 220, 255, 1) !important;
+    }
+    
+    .owncolorbg {
+        background-color: rgba(56, 220, 255, 1);
+    }
+    
+    .fontChange {
+        font-family: 'Quintessential';
+        margin: 0 auto;
+    }
+    
+    .card-body p {
+        padding-left: 1vw;
+        font-weight: bold;
+        margin-bottom: 5px !important;
+        font-family: 'Quintessential';
+    }
+    
+    .footerbg {
+        background-color: #99C0D4;
+    }
+    
+    .footerbg1 {
+        background-color: #4B95BA;
+    }
+    
+    .footerbg1 p {
+        font-size: 10px;
+    }
+    
+    @media (max-width: 768px) {
+        .slika {
+            display: none;
+        }
+    }
